@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "cleanrpc/version"
+require_relative 'cleanrpc/version'
+require_relative 'cleanrpc/rpc'
 
 module Cleanrpc
-  class Error < StandardError; end
-  # Your code goes here...
 end
