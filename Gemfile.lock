@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cleanrpc (0.0.1)
+    cleanrpc (0.0.2)
 
 GEM
   remote: https://rubygems.org/
