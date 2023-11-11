@@ -21,6 +21,16 @@ Or install it yourself as:
 
 ## Usage
 
+
+```
+$ ./bin/console
+irb(main):001:0> rpc = Cleanrpc::Rpc.new("http://aUser:aPassword@localhost:8332")
+=> #<Cleanrpc::Rpc:0x0000000103787bf8 @uri=#<URI::HTTP http://aUser:aPassword@localhost:8332>>
+irb(main):002:0> rpc.getblockcount
+=> 816336
+irb(main):003:0>
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
